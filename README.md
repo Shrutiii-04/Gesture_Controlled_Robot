@@ -60,10 +60,3 @@ The robot supports five commands: **Forward, Backward, Left, Right, and Stop.**
 | IN3 | D7 |
 | IN4 | D8 |
 | GND | GND |
-
-**Motor connections**
-
-| L298N Output | Component |
-|---|---|
-| OUT1, OUT2 | DC Motor A |
-| OUT3, OUT4 | DC Motor B |
