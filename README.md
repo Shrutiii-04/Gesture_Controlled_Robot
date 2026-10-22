@@ -26,7 +26,7 @@ The robot supports five commands: **Forward, Backward, Left, Right, and Stop.**
 
 | MPU6050 Pin | Arduino Nano Pin |
 |---|---|
-| VCC | Compatible supply voltage |
+| VCC | 3.3 V |
 | GND | GND |
 | SDA | A4 |
 | SCL | A5 |
@@ -36,7 +36,7 @@ The robot supports five commands: **Forward, Backward, Left, Right, and Stop.**
 | RF Transmitter Pin | Arduino Nano Pin |
 |---|---|
 | DATA | D12 |
-| VCC | As specified by the module |
+| VCC | 3.3 V |
 | GND | GND |
 
 ### 2. Receiver Unit — Arduino Nano
@@ -46,7 +46,7 @@ The robot supports five commands: **Forward, Backward, Left, Right, and Stop.**
 | RF Receiver Pin | Arduino Nano Pin |
 |---|---|
 | DATA | D11 |
-| VCC | As specified by the module |
+| VCC | 3.3 V |
 | GND | GND |
 
 **L298N motor driver connections**
@@ -59,7 +59,7 @@ The robot supports five commands: **Forward, Backward, Left, Right, and Stop.**
 | ENB | D6 |
 | IN3 | D7 |
 | IN4 | D8 |
-| GND | Common GND |
+| GND | GND |
 
 **Motor connections**
 
